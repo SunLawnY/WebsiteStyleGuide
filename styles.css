@@ -1,0 +1,96 @@
+/* Whole website */
+
+*{
+    /*border: 0.5px solid red !important;*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0 10%;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+
+/* Header */
+header {
+    font-size: 2em;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* Main */
+.container {
+    border: 1px solid black;
+}
+
+.topic{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.border{
+    margin-top: 20px;
+}
+
+.border > p {
+    text-decoration: underline;
+    font-size: 1.2em;
+    padding-left: 20px;
+}
+
+.contentBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colorbox{
+    width: 20%;
+    text-align: center;
+    height: 50px;
+    margin: 5px 5px;
+    
+}
+
+#turqyoise {
+    background-color: #41D3BD;
+}
+
+#ivory {
+    background-color: #FFFFF2;
+}
+
+#mauveine{
+    background-color: #791E94;
+}
+
+#burntsienna {
+    background-color: #DE6449;
+}
+
+#cerulean {
+    background-color: #407899;
+}
+
+#nyanza {
+    background-color: hsl(143, 62%, 89%);
+}
+
+#carnationpink {
+    background-color: hsl(332, 100%, 80%);
+}
+
+#lemonchiffon {
+    background-color: hsl(54, 91%, 86%);
+}
+
+#uranianblue {
+    background-color: hsl(200, 87%, 82%);
+}
+
+#mauve {
+    background-color: hsl(278, 82%, 87%);
+}
