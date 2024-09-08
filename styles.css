@@ -25,11 +25,13 @@ header {
 /* Main */
 .container {
     border: 1px solid black;
+    margin-bottom: 15px;
 }
 
 .topic{
     font-size: 1.5em;
     text-align: center;
+    margin-top: 10px;
 }
 
 .border{
@@ -47,12 +49,14 @@ header {
     justify-content: space-between;
 }
 
+/* Colors */
+
 .colorbox{
     width: 20%;
     text-align: center;
     height: 50px;
     margin: 5px 5px;
-    
+    align-content: center;
 }
 
 #turqyoise {
@@ -93,4 +97,97 @@ header {
 
 #mauve {
     background-color: hsl(278, 82%, 87%);
+}
+
+/* Fonts */
+.textbox{
+    margin: 0 10px;
+}
+
+.textbox > p{
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 18px;
+    text-align: justify;
+}
+
+#SUSE{
+    font-family: SUSE;
+    text-transform: capitalize;
+}
+
+#Quicksand{
+    font-family: Quicksand;
+    font-weight: bold;
+}
+
+#NerkoOne{
+    font-family: 'Nerk One';
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+button {
+    height: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#buttons .border{
+    width: 100%;
+    text-align: center;
+}
+
+.content {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skeuomorphic {
+    border: 2px solid #0c960c;
+    border-radius: 5px;
+    color: #F8F8F8;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
+    background: linear-gradient(#1D1, #0ebc0e);
+    text-shadow: 0 -2px #0c960c;
+}
+    
+    .skeuomorphic:hover {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: #0ebc0e;
+    background: linear-gradient(#0ebc0e, #0c960c);
+    border-color: #064f06;
+}
+    
+    
+    .skeuomorphic:active {
+    margin-top: 2px;
+    margin-bottom: -2px;
+    box-shadow: 0px 2px 2px rgba(63, 63, 63, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: #0c960c;
+    background: linear-gradient(#0c960c, #0ebc0e);
+}
+
+.flat {
+    background-color: #1D1;
+    color: #fff;
+    border: 2px solid #12dd23;
+    border-radius: 10px;
+}
+    
+    
+.flat:hover {
+    background-color: #0c960c;
+    transition: background-color .15s, font-size .15s;
+    font-size: 18px;
+}
+    
+    
+.flat:active {
+    border-color: #fff;
+    color: black;
 }
